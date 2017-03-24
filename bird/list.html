@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>列表</title>
+		<link rel="stylesheet" href="css/common.css" />
+		<link rel="stylesheet" type="text/css" href="css/animate.css"/>
+		<link rel="stylesheet" href="css/list.css" />
+		<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/move.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/list.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/listData.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div id="header"></div>
+		<div class="xiaoniao">
+			<div class="xiaonian-main">
+				<div class="model">
+					<h1>小鸟动态</h1>
+					<span>About Company</span>
+					<img src="images/three_points01.png"/>
+				</div>
+				<h2>列表<span class="pen"></span></h2>
+				<ul id="list">
+					<li >
+						<div class="sanjiao"></div>
+						<div class="xiaonian-main1">
+							<img src="images/list_img01.jpg" style="float: left;">
+							<div class="xiaonian-main2">
+								<h3>胜林三境重装出发</h3>
+								<span>2016-02-03</span>
+								<p>小鸟掌学创建于2014年初，起源服务于四川省专业技术人员继续教育基地的在线培训平台</p>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="sanjiao"></div>
+						<div class="xiaonian-main1">
+							<img src="images/list_img02.jpg" style="float: left;">
+							<div class="xiaonian-main2">
+								<h3>小鸟掌学开通国外渠道</h3>
+								<span>2016-02-03</span>
+								<p>小鸟掌学创建于2014年初，起源服务于四川省专业技术人员继续教育基地的在线培训平台</p>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="sanjiao"></div>
+						<div class="xiaonian-main1">
+							<img src="images/list_img03.jpg" style="float: left;">
+							<div class="xiaonian-main2">
+								<h3>胜林三境天气App上线</h3>
+								<span>2016-02-03</span>
+								<p>小鸟掌学创建于2014年初，起源服务于四川省专业技术人员继续教育基地的在线培训平台</p>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="sanjiao"></div>
+						<div class="xiaonian-main1">
+							<img src="images/list_img04.jpg" style="float: left;">
+							<div class="xiaonian-main2">
+								<h3>国外报道</h3>
+								<span>2016-02-03</span>
+								<p>小鸟掌学创建于2014年初，起源服务于四川省专业技术人员继续教育基地的在线培训平台</p>
+							</div>
+						</div>
+					</li>
+				</ul>
+				<div class="scroll-top">
+					<!--<img src="images/list_gomore_bg.jpg"/>-->
+				</div>
+				<div class="list-more"></div>
+			</div>
+		</div>
+	<!--	//制作模板-->
+		<ul id="list-model" style="display: none;">
+		<li class="aaaa" articleid="$articleid$">
+			<div class="sanjiao"></div>
+			<div class="xiaonian-main1">
+				<img src="$url$" style="float: left;">
+				<div class="xiaonian-main2">
+		    		<h3>$title$</h3>
+					<span>$date$</span>
+					<p>$content$</p>
+				</div>
+			</div>
+		</li>
+	</ul>
+		<div class="back  animated tada"></div>
+		<div id="footer"></div>
+	</body>
+</html>

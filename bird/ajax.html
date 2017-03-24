@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+		//url    192.168.3.153
+			$.ajax({
+				url:"http://localhost/11111.php",
+				type:"get",
+				data:{
+					page:0,
+				},
+				success:function(data){
+					document.write(data)
+				}
+			});
+		</script>
+	</body>
+</html>

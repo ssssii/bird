@@ -1,0 +1,60 @@
+.header{
+	height: 120px;
+	background: url(../images/header_bg.jpg) no-repeat;
+}
+.header-main{
+	width: 1100px;  margin: 0 auto;
+}
+.header-main img{
+	float: left;
+}
+.header-main ul{
+	float: left;  margin-left: 95px;
+}
+.header-main li{
+	float: left;
+	line-height: 120px; height: 120px;
+	padding: 0 17px; font-size: 14px;
+	font-weight: bold; position: relative;
+}
+.header a{
+	color: white;
+}
+.header li:hover{
+	background: url("../images/nav_now_bg.png") no-repeat;
+	background-position: 50% 65%;
+}
+.li1{
+	background: url("../images/nav_now_bg.png") no-repeat;
+	background-position: 50% 65%;
+}
+.header span{
+	display: block;  float: left;
+}
+.header em{
+	width: 25px; height: 25px; margin-top: 46px;
+	display: block; float: left; margin-left: 10px;
+	background: url("../images/nav_xiajiantou.png") no-repeat;
+}
+.header dl{
+	background: #352149;
+	width: 180px;  position: absolute;
+	top: 80px;  left: 0;
+	display: none;z-index: 10;
+}
+.header dd{
+	height: 40px;  line-height: 40px;
+}
+.header dd:hover{
+	background: url(../images/nav_li_bg.png) no-repeat;
+	background-position: 85% 50%;
+	background-color:blue ;
+}
+.header dd a{
+	text-indent: 30px;
+	position: absolute;
+}
+.header dd:hover>a{
+	transform: translateX(20px);
+	transition:transform 1s;
+}

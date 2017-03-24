@@ -1,0 +1,896 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<link rel="stylesheet" type="text/css" href="css/animate.css"/>
+		<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/move.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/index.js"></script>
+		<style type="text/css">
+    html,body{margin:0;padding:0;}
+    .iw_poi_title {color:#CC5522;font-size:14px;font-weight:bold;overflow:hidden;padding-right:13px;white-space:nowrap}
+    .iw_poi_content {font:12px arial,sans-serif;overflow:visible;padding-top:4px;white-space:-moz-pre-wrap;word-wrap:break-word}
+</style>
+<script type="text/javascript" src="http://api.map.baidu.com/api?key=&v=1.1&services=true"></script>
+	</head>
+	<body>
+		<div id="header"></div>
+		
+		<div class="banner">
+			<div class="scroll">
+				<div style="display: block;" class="banner1">
+					<img src="images/banner01_03.png" class="banner1-tu"/>
+					<img src="images/banner01_01.png" class="banner1-tu2 animated bounceInLeft"/>
+					<img src="images/banner01_02.png" class="banner1-tu3 animated bounceInRight"/>
+				</div>
+				<div class="banner2">
+					<img src="images/banner02_02.png" class="banner2-tu animated  bounceInUp "/>
+					<img src="images/banner02_01.png" class="banner2-tu1 animated bounceInLeft" />
+					<img src="images/banner02_03.png" class="banner2-tu2 animated bounceInRight" />
+				</div> 
+				<div class="banner1">
+					<img src="images/banner01_03.png" class="banner1-tu"/>
+						<img src="images/banner03_01.png" class="banner1-tu4 animated bounceInLeft"/>
+					<img src="images/banner03_02.png" class="banner1-tu5 animated bounceInRight"/>
+				</div>
+			</div>
+			<div class="banner-box">
+				<div class="oleft"></div>
+				<div class="banner-content">
+					<img src="images/next&prev_mbg01.png"  />
+					<div class="banner02">
+						<ul>
+							<li class="banner-li" style="margin-left: 0;"></li>
+							<li></li>
+							<li></li>
+						</ul>
+					</div>
+					<img src="images/next&prev_mbg03.png" />
+				</div>
+				<div class="oright"></div>
+				
+			</div>
+		</div>
+		
+		<div class="product">
+			<div class="product-main">
+				<img src="images/goOn_icon01.png" class="product-tu"/>
+				<div class="model">
+					<h1>主要产品</h1>
+					<span>Our Works</span>
+					<img src="images/three_points01.png"/>
+				</div>
+				
+				<div class="product-banner">
+					<ul>
+						<li class="producr-li" style="margin-top: 0"></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+					</ul>
+					
+					<div class="product-right" style="display: block;">
+						<img src="images/chanpin_image01.jpg"/ style="float: left;">
+						<div class="product-right1">
+							
+							<em>
+								<h1>小鸟掌学1</h1>
+								<img src="images/pen.png"/ style="float: right;">
+							</em>
+							
+							<div class="product1">
+								<p class="p1">
+									<img src="images/xiaoniao_icon.png" style="float: left;margin-left: 10px;margin-right: 25px;" />
+									<span>
+										<h3>概述</h3>
+										小鸟掌学创建于2014年初，起源服务于四川省专业技术人员继续教育基地的在线培训平台，受到客户与社会的密切关注与欢迎。卓新思创科技有限公司负责小鸟掌学的运营、推广和研发等工作。
+									</span>
+								</p>
+								
+								<p class="p2">
+									我们的愿景：成为中国最强、最大的中小微企业定制在线学习服务提供商！
+									我们做的是“新学习、新媒体”！
+									帮助企业建立自己的企业学校，实现：全民全学、全民全校、全民全智(比拼式学习)！
+								</p>
+								<div class="weni">
+									<img src="images/yinhao02_zuo.png" style="float: left;"/>
+									<span style="display: block;margin-top: 10px;width: 151px;text-align: center;float: left;">学我所用、学以致用</span>
+									<img src="images/yinhao02_you.png" style="float: right;margin-top: 16px;"/>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="product-right">
+						<img src="images/chanpin_image02.jpg"/ style="float: left;">
+						<div class="product-right1">
+							
+							<em>
+								<h1>小鸟掌学2</h1>
+								<img src="images/pen.png"/ style="float: right;">
+							</em>
+							
+							<div class="product1">
+								<p class="p1">
+									<img src="images/xiaoniao_icon.png" style="float: left;margin-left: 10px;margin-right: 25px;" />
+									<span>
+										<h3>概述</h3>
+										小鸟掌学创建于2014年初，起源服务于四川省专业技术人员继续教育基地的在线培训平台，受到客户与社会的密切关注与欢迎。卓新思创科技有限公司负责小鸟掌学的运营、推广和研发等工作。
+									</span>
+								</p>
+								
+								<p class="p2">
+									我们的愿景：成为中国最强、最大的中小微企业定制在线学习服务提供商！
+									我们做的是“新学习、新媒体”！
+									帮助企业建立自己的企业学校，实现：全民全学、全民全校、全民全智(比拼式学习)！
+								</p>
+								<div class="weni">
+									<img src="images/yinhao02_zuo.png" style="float: left;"/>
+									<span style="display: block;margin-top: 10px;width: 151px;text-align: center;float: left;">学我所用、学以致用</span>
+									<img src="images/yinhao02_you.png" style="float: right;margin-top: 16px;"/>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="product-right">
+						<img src="images/chanpin_image03.jpg"/ style="float: left;">
+						<div class="product-right1">
+							
+							<em>
+								<h1>小鸟掌学3</h1>
+								<img src="images/pen.png"/ style="float: right;">
+							</em>
+							
+							<div class="product1">
+								<p class="p1">
+									<img src="images/xiaoniao_icon.png" style="float: left;margin-left: 10px;margin-right: 25px;" />
+									<span>
+										<h3>概述</h3>
+										小鸟掌学创建于2014年初，起源服务于四川省专业技术人员继续教育基地的在线培训平台，受到客户与社会的密切关注与欢迎。卓新思创科技有限公司负责小鸟掌学的运营、推广和研发等工作。
+									</span>
+								</p>
+								
+								<p class="p2">
+									我们的愿景：成为中国最强、最大的中小微企业定制在线学习服务提供商！
+									我们做的是“新学习、新媒体”！
+									帮助企业建立自己的企业学校，实现：全民全学、全民全校、全民全智(比拼式学习)！
+								</p>
+								<div class="weni">
+									<img src="images/yinhao02_zuo.png" style="float: left;"/>
+									<span style="display: block;margin-top: 10px;width: 151px;text-align: center;float: left;">学我所用、学以致用</span>
+									<img src="images/yinhao02_you.png" style="float: right;margin-top: 16px;"/>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="product-right">
+						<img src="images/chanpin_image04.jpg"/ style="float: left;">
+						<div class="product-right1">
+							
+							<em>
+								<h1>小鸟掌学4</h1>
+								<img src="images/pen.png"/ style="float: right;">
+							</em>
+							
+							<div class="product1">
+								<p class="p1">
+									<img src="images/xiaoniao_icon.png" style="float: left;margin-left: 10px;margin-right: 25px;" />
+									<span>
+										<h3>概述</h3>
+										小鸟掌学创建于2014年初，起源服务于四川省专业技术人员继续教育基地的在线培训平台，受到客户与社会的密切关注与欢迎。卓新思创科技有限公司负责小鸟掌学的运营、推广和研发等工作。
+									</span>
+								</p>
+								
+								<p class="p2">
+									我们的愿景：成为中国最强、最大的中小微企业定制在线学习服务提供商！
+									我们做的是“新学习、新媒体”！
+									帮助企业建立自己的企业学校，实现：全民全学、全民全校、全民全智(比拼式学习)！
+								</p>
+								<div class="weni">
+									<img src="images/yinhao02_zuo.png" style="float: left;"/>
+									<span style="display: block;margin-top: 10px;width: 151px;text-align: center;float: left;">学我所用、学以致用</span>
+									<img src="images/yinhao02_you.png" style="float: right;margin-top: 16px;"/>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="product-right">
+						<img src="images/chanpin_image05.jpg"/ style="float: left;">
+						<div class="product-right1">
+							
+							<em>
+								<h1>小鸟掌学5</h1>
+								<img src="images/pen.png"/ style="float: right;">
+							</em>
+							
+							<div class="product1">
+								<p class="p1">
+									<img src="images/xiaoniao_icon.png" style="float: left;margin-left: 10px;margin-right: 25px;" />
+									<span>
+										<h3>概述</h3>
+										小鸟掌学创建于2014年初，起源服务于四川省专业技术人员继续教育基地的在线培训平台，受到客户与社会的密切关注与欢迎。卓新思创科技有限公司负责小鸟掌学的运营、推广和研发等工作。
+									</span>
+								</p>
+								
+								<p class="p2">
+									我们的愿景：成为中国最强、最大的中小微企业定制在线学习服务提供商！
+									我们做的是“新学习、新媒体”！
+									帮助企业建立自己的企业学校，实现：全民全学、全民全校、全民全智(比拼式学习)！
+								</p>
+								<div class="weni">
+									<img src="images/yinhao02_zuo.png" style="float: left;"/>
+									<span style="display: block;margin-top: 10px;width: 151px;text-align: center;float: left;">学我所用、学以致用</span>
+									<img src="images/yinhao02_you.png" style="float: right;margin-top: 16px;"/>
+								</div>
+							</div>
+						</div>
+					</div>
+			
+					<div class="product-right">
+						<img src="images/chanpin_image06.jpg"/ style="float: left;">
+						<div class="product-right1">
+							
+							<em>
+								<h1>小鸟掌学6</h1>
+								<img src="images/pen.png"/ style="float: right;">
+							</em>
+							
+							<div class="product1">
+								<p class="p1">
+									<img src="images/xiaoniao_icon.png" style="float: left;margin-left: 10px;margin-right: 25px;" />
+									<span>
+										<h3>概述</h3>
+										小鸟掌学创建于2014年初，起源服务于四川省专业技术人员继续教育基地的在线培训平台，受到客户与社会的密切关注与欢迎。卓新思创科技有限公司负责小鸟掌学的运营、推广和研发等工作。
+									</span>
+								</p>
+								
+								<p class="p2">
+									我们的愿景：成为中国最强、最大的中小微企业定制在线学习服务提供商！
+									我们做的是“新学习、新媒体”！
+									帮助企业建立自己的企业学校，实现：全民全学、全民全校、全民全智(比拼式学习)！
+								</p>
+								<div class="weni">
+									<img src="images/yinhao02_zuo.png" style="float: left;"/>
+									<span style="display: block;margin-top: 10px;width: 151px;text-align: center;float: left;">学我所用、学以致用</span>
+									<img src="images/yinhao02_you.png" style="float: right;margin-top: 16px;"/>
+								</div>
+							</div>
+						</div>
+					</div>
+				
+				
+				
+				
+				
+				</div>
+			
+				<div class="left-right">
+					<div class="oleft"></div>
+					<div class="oright"></div>
+				</div>
+			</div>
+		</div>
+	
+	
+		<div class="company">
+			<div class="product-main">
+				<div class="model">
+					<h1 style="color: white;">公司简介</h1>
+					<span style="color: white;">About Company</span>
+					<img src="images/three_points01.png"/>
+				</div>
+				
+				<div class="product-banner">
+					<div class="selected"></div>
+					<ul>
+						<li class="producr-li" style="margin-top: 0"></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+					</ul>
+					<div class="product-right" style="display: block;">
+						<img src="images/chanpin_image01.jpg"/ style="float: left;">
+						<div class="product-right1">
+							
+							<em>
+								<h1 style="color: white;">卓新思创有限公司</h1>
+								<img src="images/pen.png"/ style="float: right;">
+							</em>
+							
+							<div class="product1">
+								<p class="p1">
+									<img src="images/xiaoniao_icon.png" style="float: left;margin-left: 10px;margin-right: 25px;" />
+									<span>
+										<h3>概述</h3>
+										小鸟掌学创建于2014年初，起源服务于四川省专业技术人员继续教育基地的在线培训平台，受到客户与社会的密切关注与欢迎。卓新思创科技有限公司负责小鸟掌学的运营、推广和研发等工作。
+									</span>
+								</p>
+								
+								<p class="p2">
+									我们的愿景：成为中国最强、最大的中小微企业定制在线学习服务提供商！
+									我们做的是“新学习、新媒体”！
+									帮助企业建立自己的企业学校，实现：全民全学、全民全校、全民全智(比拼式学习)！
+								</p>
+								<div class="weni">
+									<img src="images/yinhao02_zuo.png" style="float: left;"/>
+									<span style="display: block;margin-top: 10px;width: 151px;text-align: center;float: left;">学我所用、学以致用</span>
+									<img src="images/yinhao02_you.png" style="float: right;margin-top: 16px;"/>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				
+					
+				
+				
+				
+				
+				</div>
+			
+			</div>
+		</div>
+	
+		<div class="yewu">
+			<div class="yewu-main">
+				
+				<img src="images/yewu_zhiyinimg.jpg" class="yewu-tu"/>
+				<div class="model">
+					<h1>业务范围</h1>
+					<span>Our Works</span>
+					<img src="images/three_points01.png"/>
+				</div>
+			
+				<div class="yewu-box">
+					<div class="yewu-box1 " style="margin-top: 16px;">
+						<ul>
+							<li class="yewuli1">01</li>
+							<li class="yewuli2">
+								<h3>企业培训平台</h3>
+								<p>Enterprise training platform</p>
+							</li>
+							<li style="margin-left: 58px;" class="yewuli3 sh">
+								<img src="images/business_cimg01.png"/>
+							</li>
+							<li class="yewuli4">
+								<span>
+									我们的愿景：成为中国最强、最大的中小微企业
+								</span>
+								<p>
+									定制在线学习服务提供商！
+								</p>
+								<p>我们做的是“新学习、新媒体”！</p>
+								
+							</li>
+							<li class="yewuli5 show"></li>
+						</ul>
+						<p style="display: block;">
+							
+   						“小鸟掌学”云平台是一套完整的专家知识、学习管理、监督考核系统。首先根据企业和员工的特性，抓取学习需求，然后从“平台学习库、行业学习库和企业内训库”中调出教学资源，按学习计划“推送”任务给每一位员工，并对学习过程进行监管，对学习效果进行评估，根据学习情况调整学习计划，不断优化员工的职业生涯。
+
+						<span>“小鸟掌学”主要基于智能手机平台进行学习。针对性、趣味性、创新性的学习方式有助于员工建立学习兴趣，将学习与趣味相结合，提高学习吸收率。提高员工技能，增加企业效益。
+						</span>
+						</p>
+						
+					</div>
+				
+					<div class="yewu-box1" >
+						<ul>
+							<li class="yewuli1">02</li>
+							<li class="yewuli2">
+								<h3>企业培训平台</h3>
+								<p>Enterprise training platform</p>
+							</li>
+							<li style="margin-left: 58px;" class="yewuli3">
+								<img src="images/business_cimg02.png"/>
+							</li>
+							<li class="yewuli4">
+								<span>
+									我们的愿景：成为中国最强、最大的中小微企业
+								</span>
+								<p>
+									定制在线学习服务提供商！
+								</p>
+								<p>我们做的是“新学习、新媒体”！</p>
+								
+							</li>
+							<li class="yewuli5">
+								
+							</li>
+						</ul>
+						<p>
+							
+   						“小鸟掌学”云平台是一套完整的专家知识、学习管理、监督考核系统。首先根据企业和员工的特性，抓取学习需求，然后从“平台学习库、行业学习库和企业内训库”中调出教学资源，按学习计划“推送”任务给每一位员工，并对学习过程进行监管，对学习效果进行评估，根据学习情况调整学习计划，不断优化员工的职业生涯。
+
+						<span>“小鸟掌学”主要基于智能手机平台进行学习。针对性、趣味性、创新性的学习方式有助于员工建立学习兴趣，将学习与趣味相结合，提高学习吸收率。提高员工技能，增加企业效益。
+						</span>
+						</p>
+					
+						
+					</div>
+					
+					<div class="yewu-box1">
+						<ul>
+							<li class="yewuli1">03</li>
+							<li class="yewuli2">
+								<h3>企业培训平台</h3>
+								<p>Enterprise training platform</p>
+							</li>
+							<li style="margin-left: 58px;" class="yewuli3">
+								<img src="images/business_cimg03.png"/>
+							</li>
+							<li class="yewuli4">
+								<span>
+									我们的愿景：成为中国最强、最大的中小微企业
+								</span>
+								<p>
+									定制在线学习服务提供商！
+								</p>
+								<p>我们做的是“新学习、新媒体”！</p>
+								
+							</li>
+							<li class="yewuli5">
+								
+							</li>
+						</ul>
+						
+						<p>
+							
+   						“小鸟掌学”云平台是一套完整的专家知识、学习管理、监督考核系统。首先根据企业和员工的特性，抓取学习需求，然后从“平台学习库、行业学习库和企业内训库”中调出教学资源，按学习计划“推送”任务给每一位员工，并对学习过程进行监管，对学习效果进行评估，根据学习情况调整学习计划，不断优化员工的职业生涯。
+
+						<span>“小鸟掌学”主要基于智能手机平台进行学习。针对性、趣味性、创新性的学习方式有助于员工建立学习兴趣，将学习与趣味相结合，提高学习吸收率。提高员工技能，增加企业效益。
+						</span>
+						</p>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	
+		<div class="team">
+			<div class="team-main">
+				<div class="product-main">
+					<img src="images/tuandui_zhiyinimg.jpg" class="yewu-tu team-tu"/>
+					<div class="model">
+						<h1>团队介绍</h1>
+						<span>Our Works</span>
+						<img src="images/three_points01.png"/>
+					</div>
+					
+					<div class="bigBox">
+						<div class="team-scroll">
+							
+							<div class="smallbox">
+								<ul>
+									<li style="margin-left: 0;">
+										<div class="smallbox1">
+											<img src="images/team_img01.png"/>
+											<h1>李默</h1>
+											<span>创始人</span>
+										</div>
+										
+										<div class="smallbox2">
+											开朗、乐观、上进、善于与人交流沟通。18年IT经验，从程序员、项目经理、CTO、到总经理。
+											<span class="box2-sp">
+												<span class="sp1">
+													<em></em>
+												</span>
+												<span class="sp2">
+													发送邮件
+												</span>
+											</span>
+											
+										</div>
+										
+										<div class="smallbox3">
+											
+										</div>
+									</li>
+									<li>
+										<div class="smallbox1">
+											<img src="images/team_img01.png"/>
+											<h1>张欣</h1>
+											<span>总经理</span>
+										</div>
+										
+										<div class="smallbox2">
+											<span style="margin-top: 30px;">暂未更新，敬请期待。</span>
+											<span class="box2-sp">
+												<span class="sp1">
+													<em></em>
+												</span>
+												<span class="sp2">
+													发送邮件
+												</span>
+											</span>
+											
+										</div>
+										
+										<div class="smallbox3">
+											
+										</div>
+									</li>
+								</ul>
+								<ul>
+									<li style="margin-left: 0;">
+										<div class="smallbox1">
+											<img src="images/team_img01.png"/>
+											<h1>2</h1>
+											<span>创始人</span>
+										</div>
+										
+										<div class="smallbox2">
+											开朗、乐观、上进、善于与人交流沟通。18年IT经验，从程序员、项目经理、CTO、到总经理。
+											<span class="box2-sp">
+												<span class="sp1">
+													<em></em>
+												</span>
+												<span class="sp2">
+													发送邮件
+												</span>
+											</span>
+											
+										</div>
+										
+										<div class="smallbox3">
+											
+										</div>
+									</li>
+									<li>
+										<div class="smallbox1">
+											<img src="images/team_img01.png"/>
+											<h1>李默</h1>
+											<span>创始人</span>
+										</div>
+										
+										<div class="smallbox2">
+											开朗、乐观、上进、善于与人交流沟通。18年IT经验，从程序员、项目经理、CTO、到总经理。
+											<span class="box2-sp">
+												<span class="sp1">
+													<em></em>
+												</span>
+												<span class="sp2">
+													发送邮件
+												</span>
+											</span>
+											
+										</div>
+										
+										<div class="smallbox3">
+											
+										</div>
+									</li>
+								</ul>
+								
+								<ul>
+									<li style="margin-left: 0;">
+										<div class="smallbox1">
+											<img src="images/team_img01.png"/>
+											<h1>3</h1>
+											<span>创始人</span>
+										</div>
+										
+										<div class="smallbox2">
+											开朗、乐观、上进、善于与人交流沟通。18年IT经验，从程序员、项目经理、CTO、到总经理。
+											<span class="box2-sp">
+												<span class="sp1">
+													<em></em>
+												</span>
+												<span class="sp2">
+													发送邮件
+												</span>
+											</span>
+											
+										</div>
+										
+										<div class="smallbox3">
+											
+										</div>
+									</li>
+									<li>
+										<div class="smallbox1">
+											<img src="images/team_img01.png"/>
+											<h1>李默</h1>
+											<span>创始人</span>
+										</div>
+										
+										<div class="smallbox2">
+											开朗、乐观、上进、善于与人交流沟通。18年IT经验，从程序员、项目经理、CTO、到总经理。
+											<span class="box2-sp">
+												<span class="sp1">
+													<em></em>
+												</span>
+												<span class="sp2">
+													发送邮件
+												</span>
+											</span>
+											
+										</div>
+										
+										<div class="smallbox3">
+											
+										</div>
+									</li>
+								</ul>
+								
+								<ul>
+									<li style="margin-left: 0;">
+										<div class="smallbox1">
+											<img src="images/team_img01.png"/>
+											<h1>4</h1>
+											<span>创始人</span>
+										</div>
+										
+										<div class="smallbox2">
+											开朗、乐观、上进、善于与人交流沟通。18年IT经验，从程序员、项目经理、CTO、到总经理。
+											<span class="box2-sp">
+												<span class="sp1">
+													<em></em>
+												</span>
+												<span class="sp2">
+													发送邮件
+												</span>
+											</span>
+											
+										</div>
+										
+										<div class="smallbox3">
+											
+										</div>
+									</li>
+									<li>
+										<div class="smallbox1">
+											<img src="images/team_img01.png"/>
+											<h1>李默</h1>
+											<span>创始人</span>
+										</div>
+										
+										<div class="smallbox2">
+											开朗、乐观、上进、善于与人交流沟通。18年IT经验，从程序员、项目经理、CTO、到总经理。
+											<span class="box2-sp">
+												<span class="sp1">
+													<em></em>
+												</span>
+												<span class="sp2">
+													发送邮件
+												</span>
+											</span>
+											
+										</div>
+										
+										<div class="smallbox3">
+											
+										</div>
+									</li>
+								</ul>
+								
+								<ul>
+									<li style="margin-left: 0;">
+										<div class="smallbox1">
+											<img src="images/team_img01.png"/>
+											<h1>5</h1>
+											<span>创始人</span>
+										</div>
+										
+										<div class="smallbox2">
+											开朗、乐观、上进、善于与人交流沟通。18年IT经验，从程序员、项目经理、CTO、到总经理。
+											<span class="box2-sp">
+												<span class="sp1">
+													<em></em>
+												</span>
+												<span class="sp2">
+													发送邮件
+												</span>
+											</span>
+											
+										</div>
+										
+										<div class="smallbox3">
+											
+										</div>
+									</li>
+									<li>
+										<div class="smallbox1">
+											<img src="images/team_img01.png"/>
+											<h1>李默</h1>
+											<span>创始人</span>
+										</div>
+										
+										<div class="smallbox2">
+											开朗、乐观、上进、善于与人交流沟通。18年IT经验，从程序员、项目经理、CTO、到总经理。
+											<span class="box2-sp">
+												<span class="sp1">
+													<em></em>
+												</span>
+												<span class="sp2">
+													发送邮件
+												</span>
+											</span>
+											
+										</div>
+										
+										<div class="smallbox3">
+											
+										</div>
+									</li>
+								</ul>
+								
+								
+							</div>
+						</div>	
+						<div class="team-box">
+							<div class="oleft">
+								
+							</div>
+							<div class="banner-content">
+								
+								<img src="images/next&prev_mbg01.png" />
+							
+								<div class="banner02" style="width: 60px;">
+									<ul class="ulll">
+										<li class="banner-li" style="margin-left: 0;"></li>
+										<li></li>
+										<li></li>
+										<li></li>
+										<li></li>
+									</ul>
+								</div>
+							
+								<img src="images/next&prev_mbg03.png" />
+							</div>
+				<div class="oright">
+					
+				</div>
+				
+			</div>
+						
+					</div>
+				</div>
+			
+			</div>
+		</div>
+
+		<div class="heuo">	
+			<div class="heuo-main">
+				<img src="images/hezuo_topbg.png" class="heuo-tu"/>
+				<div class="model">
+					<h1>合作机构</h1>
+					<span>Our Partners</span>
+					<img src="images/three_points01.png"/>
+				</div>
+				
+				<div class="heuo-left">
+						<h1>合作机构</h1>
+						<span>Our Partners</span>
+						<img src="images/pLogo01.png"/  style="margin-left: 0;margin-top: 54px;">
+						<img src="images/pLogo02.png"/ >
+						<img src="images/pLogo03.png"/ >
+						<img src="images/pLogo04.png"/ style="margin-left: 0;margin-top: 95px;">
+						<img src="images/pLogo05.png"/ style="margin-top: 95px;">
+						<img src="images/pLogo06.png"/ style="margin-top: 95px;">
+					</div>
+				
+				
+				<div class="heuo-right">
+								<h1>用户</h1>
+								<span>3000+</span>
+						
+							<div class="heuo-right0">
+								
+							</div>
+						<img src="images/uLogo01.png"/  style="margin-left: 0;margin-top: 54px;clear: both;">
+						<img src="images/uLogo02.png"/ >
+						<img src="images/uLogo03.png"/ >
+						<img src="images/uLogo04.png"/ style="margin-left: 0;margin-top: 95px;">
+						<img src="images/uLogo05.png"/ style="margin-top: 95px;">
+						<img src="images/uLogo06.png"/ style="margin-top: 95px;">
+					</div>
+				<img src="images/hezuo_bottombg.png"  class="heuo-tu1"/>
+			</div>
+			
+		</div>
+
+		<div class="us">
+			<div class="us-main">
+				<div class="model" style="margin-top: 0;">
+					<h1>联系我们</h1>
+					<span>Contact Us</span>
+					<img src="images/three_points01.png"/>
+				</div>
+			
+				<div class="">
+					<div class="toppp">
+						<span class="box2-sp us-sp" style="margin-left: 0;">
+							<span class="sp1">
+								<em style="background-position: 0 0;"></em>
+							</span>
+							<input class="sp2" placeholder="*名字">
+							
+						</span>
+						<span class="box2-sp us-sp">
+							<span class="sp1">
+								<em ></em>
+							</span>
+							<input class="sp2" placeholder="*邮箱">
+								
+							
+						</span>
+						<span class="box2-sp us-sp">
+							<span class="sp1">
+								<em style="background-position: -94px 0;"></em>
+							</span>
+							<input  class="sp2"  placeholder="联系电话 ">
+						</span>
+					</div>
+					<div class="foottt">
+						<span class="box2-sp us-sp" style="margin-left: 0;">
+							<span class="sp1" style="height: 210px;">
+								<em style="background-position: -143px 0;"></em>
+							</span>
+							<textarea style="resize: none;">*说点什么吧</textarea>
+						</span>
+						<div class="fottt1">
+							<span style="font-size: 18px;"><span style="color: red;">*</span>亲，留言的时候，要请留下你的姓名和联系方式哦~</span>
+							<p style="margin-top: 45px;">谢谢你的留言，我们将及时回复！</p>
+							<span class="box2-sp us-sp" style="margin-left: 0;">
+							<span class="sp1" style="background: #2999d6;">
+								<em style="background-position:-193px 0;"></em>
+							</span>
+							<span class="sp2" style="color: white;text-align: center;cursor: pointer;">
+								发送留言
+							</span>
+						</span>
+						</div>
+					</div>
+					<div class="foooo">
+						<span style="margin-left: 0;">
+							<img src="images/lianxi_icon01.png"/ style="float: left;margin-top: 8px;">
+							<div class="foooo1">
+								<h2>地址</h2>
+								<img src="images/lianxi_kuaier_bg.png"/>
+								<p>北京市昌平区站前东街2号</p>
+								<p>回龙观田园风光综合商业楼4层</p>
+								<p>邮编：100081</p>
+							</div>
+						</span>
+						<span>
+							<img src="images/lianxi_icon02.png"/ style="float: left;margin-top: 8px;">
+							<div class="foooo1">
+								<h2>电话</h2>
+								<img src="images/lianxi_kuaier_bg.png"/>
+								<p></p>
+								<p>总机：028-8888888</p>
+							</div>
+						</span>
+						<span>
+							<img src="images/lianxi_icon03.png"/ style="float: left;margin-top: 8px;">
+							<div class="foooo1">
+								<h2>网络途径</h2>
+								<img src="images/lianxi_kuaier_bg.png"/>
+								<p>邮箱：cp@feicuiedu.com</p>
+								<p>微博：aaaaaaa_sina</p>
+								<p>微信：ccccccc_weixin</p>
+							</div>
+						</span>
+					</div>
+					<div style="width:1100px;height:550px;" id="dituContent"></div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="back  animated tada">
+			
+		</div>
+		<div id="footer"></div>
+</body>
+</html>

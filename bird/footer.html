@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" href="css/animate.css" />
+		<link rel="stylesheet" type="text/css" href="css/footer.css"/>
+		<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/move.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="don"></div>
+		<div class="don-2">	
+			<div class="don-main">
+				<ul>
+					<li style="margin-left: 0;background: url(images/yinyue_duo.png);"></li>
+					<li style="background: url(images/yinyue_lai.png );"></li>
+					<li style="background: url(images/yinyue_mi.png );"></li>
+					<li style="background: url(images/yinyue_fa.png );"></li>
+					<li style="background: url(images/yinyue_suo.png );"></li>
+					<li style="background: url(images/yinyue_la.png );"></li>
+					<li style="background: url(images/yinyue_xi.png );"></li>
+				</ul>
+				<span>蜀ICP备16002451号</span>
+			</div>
+		</div>
+
+	<script type="text/javascript">
+		$(function(){
+			$('.don-main li').hover(
+			function(){
+				$(this).css("backgroundPositionY","-57px")
+			},
+			function(){
+				$(this).css("backgroundPositionY","0")
+			}
+		);
+		
+			//加音乐开始
+			$(function(){
+				var oM=$('.don-main');
+				var aLi=oM.find('li');
+				aLi.click(function(){
+					var index=$(this).index();
+					var userA=navigator.userAgent.toLowerCase();
+					if (userA.indexOf("msie")!=-1||userA.indexOf("rv:11.0")!=-1) {
+						$('body').append('<bgsound class="music'+index+'" src="music/sound0'+index+'.mp3" autoplay="true" loop="false"></bgsound>')
+					}else if(userA.indexOf("firefox")!=-1) {
+						$('body').append('<embed class="music'+index+'" src="music/sound0'+index+'.mp3" autoplay="true" loop="false" hidden="true" width="0" height="0">')
+					}else{
+						$("body").append('<object class="music'+index+'" data="music/sound0'+index+'.mp3" autostart="true" loop="true" width="0" height="0">'+
+                    '<param name="src" value="music/sound0'+index+'.mp3">'+'<param name="autoplay" value="1">'
+                    +'<param name="loop" value="0">'+'</object>')
+					}
+					setTimeout(function(){
+						$('.music'+index).remove();
+					},3000)
+				})
+			})
+		
+		})
+	</script>
+	</body>
+</html>

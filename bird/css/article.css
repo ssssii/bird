@@ -1,0 +1,51 @@
+.article{
+	width: 1000px;
+	margin: 0 auto;background: white;
+	height: auto;min-height: 2000px;
+}
+.article-bottom{
+	color: black;width: 780px;height: auto;
+	margin-left: 80px;margin-top: 70px;
+}
+.article h2{
+	width: 630px;
+	border-bottom: 2px solid #bdbcc2;
+	line-height: 50px;
+}
+.article-sp1{padding-top: 10px;
+	line-height: 40px;
+	margin-bottom: 35px;
+}
+.article-bottom span{
+	display: block;
+	color: black;
+	line-height: 20px;
+}
+.article-bottom h3{
+	line-height: 80px;
+}
+.article-bottom p{
+	min-height: 30px;
+	line-height: 20px;
+}
+.donghua{
+	width: 208px;height: 73px;
+	margin: 0 360px;margin-top: 84px;
+	background: url(../images/article_iflike.png) no-repeat;
+	transition: all 0.3s; cursor: pointer;
+}
+.donghua:hover{
+	background-position: 0 -73px;
+	transition: all 0.3s; 
+}
+.donghua:hover>.donghua1{
+	visibility: visible;
+}
+.donghua .donghua1{visibility: hidden;
+	width: 135px;height: 35px;background: url(../images/article_iflike_nomberbg.png)no-repeat;
+	margin-left: 73px;margin-top: 19px;display: inline-block;
+}
+.donghua1 span{
+	margin-left: 11px;
+	line-height: 17.5px;
+}

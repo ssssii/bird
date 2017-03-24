@@ -1,0 +1,29 @@
+
+.don{
+	clear: both;
+	background:url("../images/map_bottomimg.png") no-repeat 50% 0;
+	height:33px;
+	width: 100%;
+}
+.don-2{
+	background:url("../images/yinyue_bg.jpg")no-repeat 50% 0;
+	height: 348px;width: 100%;padding-top: 1px;
+}
+.don-main{
+	width: 1100px;  margin: 0 auto;
+}
+.don-main ul{
+	height: 57px;margin-left: 276px;
+	margin-top: 115px;
+}
+.don-main li{
+	height: 57px;width: 57px; float: left;
+	margin-left: 26px;
+}
+.don-main span{
+	display: block;margin-top: 88px;
+	width: 1100px;height: 83px;
+	border-top: 2px dashed #9890a2;
+	color: white;text-align: center;
+	line-height: 83px;
+}

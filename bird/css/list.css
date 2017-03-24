@@ -1,0 +1,98 @@
+.xiaonian{
+	height: auto;
+}
+.xiaonian-main{
+	height: auto;
+	width: 1100px;margin:  0 auto;
+}
+.model{
+	padding-top: 110px;
+}
+.model h1{
+	font-size: 51px;color: #311759;
+	text-align: center;
+}
+.model span{
+	letter-spacing: 2px;
+	display: block;
+	color: #501759;text-align: center;
+	font-size: 19px;margin: 0 auto;
+}
+.model img{
+	padding-top: 12px;
+	display: block;
+	margin: 0 auto;
+}
+.xiaonian-main h2{
+	margin-top: 8px;
+	width: 1100px;
+	height: 58px;
+	background: url(../images/pen_line_long.png) no-repeat;
+	background-position-y: 56px;
+}
+.xiaonian-main .pen{float: right;
+	width: 61px;height: 58px;
+	margin-top: 4px;
+	background: url(../images/pen.png)no-repeat;
+}
+.xiaonian-main .pen:hover{
+	background: url(../images/pen_hover.png); 
+}
+.xiaonian-main ul{
+	margin-top: 40px;width: 1100px;
+}
+.xiaonian-main li{position: relative;
+	margin-left: 20px;margin-bottom: 30px;
+	width: 533px;height: 238px;
+	float: left;background: white;
+	border: 1px solid transparent;
+}
+.xiaonian-main li:hover{
+	transform: translateY(-4px);
+	border-color: black;
+}
+.sanjiao{
+	width: 14px;height: 9px;
+	position: absolute;
+	margin-top: 36px;
+	margin-left:7px;transition: transform 0.8s;
+	background: url(../images/list_img_over_xiaojiantou.png);	
+}
+.xiaonian-main li:hover>.sanjiao{
+	transform: translateX(64px);
+	transition: transform 0.8s;
+}
+.xiaonian-main1{
+	width: 493px;height: 168px;
+	margin: 36px 20px 34px;
+}
+.xiaonian-main2{
+	float: right;
+	width: 216px;height: 168px;
+}
+.xiaonian-main2 h3{
+	padding-top: 20px;color: #47464a;
+}
+.xiaonian-main2 span{
+	line-height: 30px;color: #6b6a6f;
+}
+
+.scroll-top{
+	clear: both;
+	background: url(../images/list_gomore_bg.jpg) no-repeat;
+	height: 175px;width: 107px;
+	margin: 0 auto;padding-top: 60px;
+}
+.list-more{
+	height: 58px;width: 58px;
+	background: url(../images/lis_more_btn_bg.png)0 -58px no-repeat;
+	margin: 20px auto 130px;transition:  all 0.3s;
+}
+.list-more:hover{
+	background-position: 0 0;
+	transition:  all 0.5s;
+	
+}
+
+
+
